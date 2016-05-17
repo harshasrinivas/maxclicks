@@ -1,0 +1,13 @@
+﻿<Window x:Class="maxclicks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Max Clicks" Height="350" Width="525" Foreground="WhiteSmoke">
+    <Grid Background="Black">
+        <Button Name="buttonone" Content="Click here!" HorizontalAlignment="Center" VerticalAlignment="Top" Width="205" Height="100" Margin="153,184,159,0" Click="Button_Click"/>
+        <ContentControl Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,24,0,0" Width="43"/>
+        <TextBox Name="tbTime" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="105" Margin="203,126,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="67" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Margin="153,24,0,0" FontSize="32" Text="Start clicking!" Background="Black" Foreground="White"/>
+
+
+    </Grid>
+</Window>
